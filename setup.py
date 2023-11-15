@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 from setuptools import setup
-exec(open("xkeysnail/info.py").read())
+exec(open("xkeysnail/info.py", encoding='utf-8').read())
 
 setup(name             = "xkeysnail",
       version          = __version__,
